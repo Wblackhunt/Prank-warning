@@ -1,7 +1,8 @@
-while True:
-    import tkinter as tk
+import tkinter as tk
     from tkinter import messagebox
         # Function to show the warning popup
+while True:
+
     def show_warning():
         # Create the main application window (root)
         root = tk.Tk()
@@ -14,5 +15,7 @@ while True:
         # Destroy the main application window after the message box is closed
         root.destroy()
     
-    # Call the function to show the warning popup
-    show_warning()
+        # Call the function to show the warning popup
+        show_warning()
+
+    
